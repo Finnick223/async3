@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui, serif;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.child {
+  flex: 1 1 30%;
+  width: 30%;
+  border: 2px dotted black;
+  margin: 5px;
+}
